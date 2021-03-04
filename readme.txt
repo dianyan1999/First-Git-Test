@@ -1,4 +1,4 @@
-GIT 基命令
+GIT 命令
 git init                -->创建git工作区
 git add fileName        -->添加文件
 git commit -m description       -->将已添加的文件提交到仓库 description:描述
@@ -8,3 +8,22 @@ git reflog              -->记录你使用的每一次git命令
 git status              -->查看当前状态
 git checkout -- filename        -->撤销filename文件在工作区的修改
 git rm filename             -->删除指定文件  注：执行完git rm 后必须得执行 git commit命令才能删除仓库中的文件
+
+创建 SSH-KEY
+1、首页：查看本地是否有.ssh文件
+找到 Git Bash 打开后 运行 cd ~/.ssh 查看是否有该文件
+如果本地有ssh密钥的话会有id_rsa、id_rsa.pub、known_hosts等文件。
+如果没有的话运行上步骤命令就会找不到文件的提示
+2、也可以删除ssh
+复制并运行 rm -rf ~/.ssh/* 把现有的ssh key都删掉，这句命令行如果你多打一个空格，可能就要重装系统了，建议复制运行。
+3、运行 ssh-keygen -t rsa -b 4096 -C “你的邮箱” ，注意填写你的真实邮箱。
+4、按回车三次
+5、运行 cat ~/.ssh/id_rsa.pub ，得到一串东西，完整的复制这串东西
+6、打开GitHub->点击头像->setting->SSH adn GPG keys->New SSh key
+7、输入你的title、把刚才复制的那段粘贴到key中保存
+8、运行 ssh -T git@github.com ，你可能会看到这样的提示。
+9、输入yse
+10、然后如果你看到 Permission denied (publickey). 就说明你失败了，请回到第 1 步重来，是的，回到第 1步重来；
+如果你看到 Hi FrankFang! You’ve successfully authenticated, but GitHub does not provide shell access.
+那就说明你成功了
+
