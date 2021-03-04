@@ -6,3 +6,4 @@ git reset --hard version        -->版本回退，version:HEAD^-回退一个版�
 git log                 -->查看日志，可携带参数(--pretty=oneline:一行显示一个版本)
 git reflog              -->记录你使用的每一次git命令
 git status              -->查看当前状态
+git checkout -- filename        -->撤销filename文件在工作区的修改
