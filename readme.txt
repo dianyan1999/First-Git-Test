@@ -19,6 +19,7 @@ git remote add objName git@github.com:server-name/pro-name.git         -->关联
 git push -u objName master   -->将本地仓库的内容推送到远程仓库
 git remote -v               -->查看远程库信息
 git remote rm objName       -->根据名字删除，实际上只解除了本地与远程库的绑定关系，并不是物理的删除了远程库，远程库本身并没有任何改变
+git clone objUrl            -->从远程库克隆项目
 
 
 ******************************************************************************************
