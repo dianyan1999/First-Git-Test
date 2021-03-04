@@ -28,6 +28,6 @@ git remote rm objName       -->根据名字删除，实际上只解除了本地�
 8、运行 ssh -T git@github.com ，你可能会看到这样的提示。
 9、输入yse
 10、然后如果你看到 Permission denied (publickey). 就说明你失败了，请回到第 1 步重来，是的，回到第 1步重来；
-如果你看到 Hi FrankFang! You’ve successfully authenticated, but GitHub does not provide shell access.
+如果你看到 Hi ***! You’ve successfully authenticated, but GitHub does not provide shell access.
 那就说明你成功了
 
