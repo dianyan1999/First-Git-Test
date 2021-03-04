@@ -7,3 +7,4 @@ git log                 -->查看日志，可携带参数(--pretty=oneline:一�
 git reflog              -->记录你使用的每一次git命令
 git status              -->查看当前状态
 git checkout -- filename        -->撤销filename文件在工作区的修改
+rm filename             -->删除指定文件
