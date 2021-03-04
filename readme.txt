@@ -8,6 +8,8 @@ git reflog              -->记录你使用的每一次git命令
 git status              -->查看当前状态
 git checkout -- filename        -->撤销filename文件在工作区的修改
 git rm filename             -->删除指定文件  注：执行完git rm 后必须得执行 git commit命令才能删除仓库中的文件
+git remote add objName git@github.com:dianyan1999/First-Git-Test.git         -->关联GITHUB仓库
+git push -u objName master   -->将本地仓库的内容推送到远程仓库
 
 创建 SSH-KEY
 1、首页：查看本地是否有.ssh文件
