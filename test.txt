@@ -1,1 +1,2 @@
-This row for master.
+This row for Master.
+Creating a new branch is quick.
