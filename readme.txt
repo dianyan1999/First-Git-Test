@@ -30,6 +30,7 @@ git checkout -b dev         -->创建一个名为【dev】的分支，并切换�
 git branch                  -->查看当前项目的所有分支
 git merge dev               -->将名为【dev】的分支全并到当前分支
 git branch -d dev           -->删除名为【dev】的分支
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>switch<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 git switch -c dev           -->创建一个名为【dev】的分支，并切换到分支【dev】
 git switch dev              -->切换到分支【dev】
