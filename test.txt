@@ -1,3 +1,5 @@
 This row for Master.
 Creating a new branch is quick.
 Add a new row for branch of DEV  and  creating is SIMPLE.
+
+Hello word!
