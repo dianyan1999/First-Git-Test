@@ -49,6 +49,7 @@ git branch -D vulcan        -->强行删除未合并的分支【vulcan】
 *                                       标签管理                                         *
 ******************************************************************************************
 git tag <tagName>           -->用于创建一个标签，默认为HEAD,也可以指定一个commit id
+    git tag -a <tagName> -m <remark>        -->创建标签并配上说明文字
 git tag                     -->用于查看所有标签
 git show <tagName>          -->用于查看指定标签
 
