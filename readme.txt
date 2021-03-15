@@ -52,6 +52,9 @@ git tag <tagName>           -->用于创建一个标签，默认为HEAD,也可�
     git tag -a <tagName> -m <remark>        -->创建标签并配上说明文字
 git tag                     -->用于查看所有标签
 git show <tagName>          -->用于查看指定标签
+git tag -d <tagName>        -->删除本地标签(标签都是存储在本地的)
+git push <objName> <tagName>    -->将本地标签推送到远程
+git push <objName> :refs/tags/<tagName>     -->删除远程标签
 
 ******************************************************************************************
 *                                     创建 SSH-KEY                                       *
